@@ -1,7 +1,10 @@
 @import url('https://github.com/pauwma/discord-themes/raw/master/main.css');
 
 :root {
-  --background-accent: rgb(119, 221, 119);
+  --background-accent-r: 119;
+  --background-accent-g: 221;
+  --background-accent-b: 119;
+  --background-accent: rgb(var(--background-accent-r), var(--background-accent-g), var(--background-accent-b));
 }
 
 /*Home Button*/

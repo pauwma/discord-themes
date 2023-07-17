@@ -35,6 +35,7 @@
   --discord-logo: block;
   --colored-emoji: grayscale(0%);
   --disable-animations: 2s channel-unread infinite;
+  --home-button-image: url('https://media.discordapp.net/attachments/521060135901069329/1130614113278623814/2FPZAaj.png?width=701&height=701');
 }
 
 .theme-dark {

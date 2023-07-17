@@ -35,6 +35,7 @@
   --discord-logo: block;
   --colored-emoji: grayscale(0%);
   --disable-animations: 2s channel-unread infinite;
+  --home-button-image: url('https://mykombini-ab5a.kxcdn.com/107603-thickbox/ultra-detail-figure-no533-udf-sanrio-characters-series-1-my-melody-pink-medicom-toy.jpg');
 }
 
 .theme-dark {

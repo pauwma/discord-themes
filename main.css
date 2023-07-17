@@ -12,8 +12,21 @@
 
 :root {
   --mention-color-bar: var(--background-accent);
-  --mention-color-background: rgba(150, 111, 214, 0.1);
-  --mention-color-hover: rgba(150, 111, 214, 0.26);
+  /* Cálculo de opacidad para --mention-color-background */
+  --mention-color-background: rgba(
+    calc(var(--background-accent-r) * 1),
+    calc(var(--background-accent-g) * 1),
+    calc(var(--background-accent-b) * 1),
+    0.08
+  );
+
+  /* Cálculo de opacidad para --mention-color-hover */
+  --mention-color-hover: rgba(
+    calc(var(--background-accent-r) * 1),
+    calc(var(--background-accent-g) * 1),
+    calc(var(--background-accent-b) * 1),
+    0.2
+  );
   --mention-color: var(--background-accent);
   --unread-color: var(--background-accent);
   --chat-buttons: var(--background-accent);
@@ -46,7 +59,11 @@
   --background-mobile-primary: var(--background-accent);
   --background-mobile-secondary: #101010;
   --channeltextarea-background: #2B2B2B;
-  --background-accent: rgb(189, 189, 189);
+  --background-accent-r: 189;
+  --background-accent-g: 189;
+  --background-accent-b: 189;
+  --background-accent: rgb(var(--background-accent-r), var(--background-accent-g), var(--background-accent-b));
+
   --background-modifier-hover: rgb(255,255,255,0.05);
   --background-modifier-active: rgb(150,111,214,0.16862745098039217);
   --background-modifier-selected: rgb(150,111,214,0.09019607843137255);

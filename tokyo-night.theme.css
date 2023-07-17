@@ -56,16 +56,16 @@
   --header-secondary: var(--text-muted);
 
   /*  Text Color  */
-  --text-normal: #b1bae6;
-  --text-muted: #565f89;
-  --interactive-normal: #5f647e;
+  --text-normal: #f5f5f5;
+  --text-muted: #8a8a8a;
+  --interactive-normal: #735f7e;
   --interactive-hover: #a2a6c2;
   --interactive-active: #b5bad1;
   --interactive-muted: #55576b;
 
   /* Background Color */
   --background-primary: #252525;
-  --background-secondary: #171722;
+  --background-secondary: #1e1722;
   --background-secondary-alt: #13131a;
   --background-tertiary: #16161e;
   --background-tertiary-alt: var(--background-secondary-alt);
@@ -78,7 +78,7 @@
   --background-mentioned: #252836;
   --border-mentioned: #474c64;
   --background-mentioned-hover: #2f3344;
-  --accent-color: #7aa2f7;
+  --accent-color: #bf20e7;
 
   /* Folder Color */
   --folder-color: #202332d0;

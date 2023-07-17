@@ -19,8 +19,8 @@
   --mention-color-hover: rgb(150,111,214,0.07);
   --mention-color: #966FD6;
   --unread-color: #966FD6;
-  --chat-buttons: #966FD6;
-  --avatar-radius: 8px;
+  --chat-buttons: #A67FE5;
+  --avatar-radius: 14px;
   --status-radius: 10px;
   --server-radius: 18px;
   --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
@@ -44,8 +44,8 @@
   --background-secondary-alt: #101010;
   --background-tertiary: #0C0C0C;
   --background-mobile-primary: #966FD6;
-  --background-mobile-secondary: #1E2233;
-  --channeltextarea-background: #191F2E;
+  --background-mobile-secondary: #101010;
+  --channeltextarea-background: #2B2B2B;
   --background-accent: #966FD6;
   --background-modifier-hover: rgb(255,255,255,0.05);
   --background-modifier-active: rgb(150,111,214,0.16862745098039217);

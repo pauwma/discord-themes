@@ -11,6 +11,7 @@
 @import url('https://comfy-themes.github.io/Discord/betterdiscord/main.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
+@import url('https://github.com/lazuee/css-snippets/blob/main/discord/member-list/import.css');
 
 :root {
   --mention-color-bar: #966FD6;
@@ -35,6 +36,10 @@
   --discord-logo: none;
   --colored-emoji: grayscale(0%);
   --disable-animations: 2s channel-unread infinite;
+  --member-list-width: 70px;
+  --member-list-focused-width: 240px;
+  --member-list-transition: 100ms;
+  --member-list-focused-transition: 100ms;
 }
 
 .theme-dark {
@@ -71,4 +76,65 @@
   --header-primary: #fff;
   --header-secondary: #B1B5B9;
   --text-normal: #8E9297;
+}
+
+/* Categorías 1px más grande */
+.container-q97qHp {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Miembros */
+/* unfocused-within membersWrap width */
+[class*="membersWrap-"] {
+    min-width: var(--member-list-width);
+    transition: ease-in-out var(--member-list-transition);
+}
+
+[class*="membersWrap-"] [class*="members-"] {
+    width: var(--member-list-width);
+}
+
+/* focused-within membersWrap width */
+[class*="membersWrap-"]:focus-within [class*="members-"] {
+    width: var(--member-list-focused-width);
+    transition: ease-in var(--member-list-focused-transition);
+}
+
+/* pointer eventers */
+[class*="membersWrap-"]:not(:focus-within) [class*="members-"] {
+    cursor: pointer;
+}
+
+[class*="membersWrap-"]:not(:focus-within) [class*="members-"]>* {
+    pointer-events: none;
+}
+
+/* hide user role category when not focus-within */
+[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"] {
+    opacity: 0%;
+    height: 0px;
+    transition: ease-out var(--member-list-transition);
+}
+
+[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"]:first-of-type {
+    padding: 10px 8px 0px 16px;
+    content: "searchhhhh"
+}
+
+[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"]:not(:first-of-type) {
+    padding: 0px 8px 0px 16px;
+}
+
+/* membersWrap height for not focus-within */
+[class*="membersWrap-"]:not(:focus-within) [class*="content-"][aria-label="Members"] {
+    height: 100vh !important;
+}
+
+/* hide notes in private threads */
+[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="private-"]~div:last-child,
+[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="divider-"],
+[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="private-"] {
+    opacity: 0%;
+    transition: ease-out calc(var(--member-list-transition) - 0.5s);
 }

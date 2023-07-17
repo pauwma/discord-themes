@@ -10,7 +10,6 @@
 
 @import url('https://comfy-themes.github.io/Discord/betterdiscord/main.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css');
 @import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
 
 :root {
@@ -53,9 +52,9 @@
   --deprecated-card-bg: rgb(16,16,16,0.81);
   --background-floating: rgb(16,16,16,1);
   --deprecated-quickswitcher-input-background: #101010;
-  --scrollbar-auto-thumb: #FDD8D8;
-  --scrollbar-auto-track: #FDD8D8;
-  --scrollbar-thin-thumb: #FDD8D8;
+  --scrollbar-auto-thumb: #FFA0B8;
+  --scrollbar-auto-track: #1B1B1B;
+  --scrollbar-thin-thumb: #1B1B1B;
   --activity-card-background: #101010;
   --background-message-hover: transparent;
   --elevation-low: none;
@@ -73,7 +72,3 @@
   --header-secondary: #B1B5B9;
   --text-normal: #8E9297;
 }
-
-/* Any custom CSS below here */
-
-

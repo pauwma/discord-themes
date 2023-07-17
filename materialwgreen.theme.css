@@ -166,13 +166,13 @@
   transform: translateY(0.5px);
 }
 
-/* Rana */
+/* Ranita */
 [class^="panels-3wFtMD"]::before {
     content: "";
     width: 47px;
     height: 47px;
-    left: 185px;
+    left: 183px;
     margin-top: -47px;
     position: absolute;
-    background-image: url('https://img.itch.zone/aW1nLzExNDEyNjg1LmdpZg==/original/ftZVfX.gif');
+    background-image: url('https://media.discordapp.net/attachments/521060135901069329/1130607183466352651/2QHIXWU.gif');
 }

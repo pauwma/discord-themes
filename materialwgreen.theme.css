@@ -52,9 +52,9 @@
   --deprecated-card-bg: rgb(16,16,16,0.81);
   --background-floating: rgb(16,16,16,1);
   --deprecated-quickswitcher-input-background: #101010;
-  --scrollbar-auto-thumb: #2B2B2B;
-  --scrollbar-auto-track: #77DD77;
-  --scrollbar-thin-thumb: #77DD77;
+  --scrollbar-auto-thumb: #77DD77;
+  --scrollbar-auto-track: #1B1B1B;
+  --scrollbar-thin-thumb: #1B1B1B;
   --activity-card-background: #101010;
   --background-message-hover: transparent;
   --elevation-low: none;

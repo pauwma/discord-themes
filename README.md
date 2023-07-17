@@ -1,5 +1,5 @@
 <img width=800 src="https://github.com/refact0r/midnight-discord/assets/34758569/7ab9402b-d987-42c5-b9bf-7ea144edfad9">
-
+a
 # midnight
 
 A darkened discord theme with rounded chat and sidebars.

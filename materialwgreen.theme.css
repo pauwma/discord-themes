@@ -165,3 +165,14 @@
   height: 3px !important;
   transform: translateY(0.5px);
 }
+
+/* Rana */
+[class^="panels-3wFtMD"]::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    left: 185px;
+    margin-top: -47px;
+    position: absolute;
+    background-image: url('https://img.itch.zone/aW1nLzExNDEyNjg1LmdpZg==/original/ftZVfX.gif');
+}

@@ -78,6 +78,11 @@
   --elevation-low: none;
 }
 
+/* Botónes de descubrir */
+.circleIconButton-1VxDrg{
+      color: var(--background-accent);
+}
+
 /* Categorías 1px más grande */
 .container-q97qHp {
   font-size: 13px;

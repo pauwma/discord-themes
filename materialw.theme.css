@@ -73,4 +73,6 @@
   --text-normal: #8E9297;
 }
 
-/* Any custom CSS below here */
+.banner-1YaD3N  {
+ background-image: linear-gradient(transparent, var(--profile-gradient-secondary-color))!important;
+}

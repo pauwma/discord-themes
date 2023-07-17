@@ -23,9 +23,9 @@
   --status-radius: 10px;
   --server-radius: 18px;
   --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
-  --online: #00E97F;
-  --iddle: #FAA61A;
-  --dnd: #F04747;
+  --online: #FFA0B8;
+  --iddle: #FFA0B8;
+  --dnd: #FFA0B8;
   --offline: #747F8D;
   --streaming: #593695;
   --spotify-color: #1EDC62;

@@ -35,7 +35,7 @@
   --discord-logo: block;
   --colored-emoji: grayscale(0%);
   --disable-animations: 2s channel-unread infinite;
-  --home-button-image: url('https://mykombini-ab5a.kxcdn.com/107603-thickbox/ultra-detail-figure-no533-udf-sanrio-characters-series-1-my-melody-pink-medicom-toy.jpg');
+  --home-button-image: url('https://i.pinimg.com/originals/22/2c/10/222c106d1e2cda6070f478ae95c1846f.gif');
 }
 
 .theme-dark {
@@ -77,7 +77,7 @@
 /*Home Button*/
 .homeIcon-r0w4ny path {fill: transparent}
 .homeIcon-r0w4ny {
-background: url('https://www.pinterest.com/pin/sanrio-my-melody-gif-sanrio-mymelody-usagi-discover-share-gifs--15621929948505718/') center/cover no-repeat;
+background: url('https://i.pinimg.com/originals/22/2c/10/222c106d1e2cda6070f478ae95c1846f.gif') center/cover no-repeat;
 min-width: 60px;
 min-height: 60px;
 }

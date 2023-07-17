@@ -11,15 +11,15 @@
 @import url('https://github.com/lazuee/css-snippets/blob/main/discord/member-list/import.css');
 
 :root {
-  --mention-color-bar: #966FD6;
-  --mention-color-background: rgb(150,111,214,0.13);
-  --mention-color-hover: rgb(150,111,214,0.07);
-  --mention-color: #966FD6;
-  --unread-color: #966FD6;
-  --chat-buttons: #A67FE5;
-  --avatar-radius: 14px;
-  --status-radius: 10px;
-  --server-radius: 18px;
+  --mention-color-bar: var(--background-accent);
+  --mention-color-background: rgba(150, 111, 214, 0.1);
+  --mention-color-hover: rgba(150, 111, 214, 0.26);
+  --mention-color: var(--background-accent);
+  --unread-color: var(--background-accent);
+  --chat-buttons: var(--background-accent);
+  --avatar-radius: 15px;
+  --status-radius: 20px;
+  --server-radius: 20px;
   --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
   --online: #00E97F;
   --iddle: #FAA61A;
@@ -28,9 +28,8 @@
   --streaming: #593695;
   --spotify-color: #1EDC62;
   --user-buttons-spacing: 8px;
-  --user-buttons-color: #966FD6;
+  --user-buttons-color: var(--background-accent);
   --role-circle: 10px;
-  --discord-logo: none;
   --colored-emoji: grayscale(0%);
   --disable-animations: 2s channel-unread infinite;
   --member-list-width: 70px;
@@ -44,17 +43,17 @@
   --background-secondary: #101010;
   --background-secondary-alt: #101010;
   --background-tertiary: #0C0C0C;
-  --background-mobile-primary: #966FD6;
+  --background-mobile-primary: var(--background-accent);
   --background-mobile-secondary: #101010;
   --channeltextarea-background: #2B2B2B;
-  --background-accent: #966FD6;
+  --background-accent: rgb(189, 189, 189);
   --background-modifier-hover: rgb(255,255,255,0.05);
   --background-modifier-active: rgb(150,111,214,0.16862745098039217);
   --background-modifier-selected: rgb(150,111,214,0.09019607843137255);
   --deprecated-card-bg: rgb(16,16,16,0.81);
   --background-floating: rgb(16,16,16,1);
   --deprecated-quickswitcher-input-background: #101010;
-  --scrollbar-auto-thumb: #966FD6;
+  --scrollbar-auto-thumb: var(--background-accent);
   --scrollbar-auto-track: #1B1B1B;
   --scrollbar-thin-thumb: #1B1B1B;
   --activity-card-background: #101010;
@@ -166,7 +165,7 @@
 #vc-spotify-song-title#vc-spotify-song-title,
 .vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
 .vc-spotify-artist.vc-spotify-artist,
-.vc-spotify-album.vc-spotify-album, .colorStandard-1Xxp1s
+.vc-spotify-album.vc-spotify-album,
 {
   color: var(--spotify-vencord-text);
 }

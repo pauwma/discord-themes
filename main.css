@@ -294,3 +294,10 @@ button[type="submit"].lookFilled-1H2Jvj.colorBrand-2M3O3N {
     background-color: var(--background-accent);
     color: var(--white-500);
 }
+
+/* Botón de compartir abajo izquierda */
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    background-color: var(--background-accent);
+    color: var(--white-500);
+}
+

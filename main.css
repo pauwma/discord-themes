@@ -27,6 +27,18 @@
     calc(var(--background-accent-b) * 1),
     0.2
   );
+  --brand-experiment: rgba(
+    calc(var(--background-accent-r) * 1),
+    calc(var(--background-accent-g) * 1),
+    calc(var(--background-accent-b) * 1),
+    0.2);
+    
+  --brand-experiment-560: rgba(
+    calc(var(--background-accent-r) * 1),
+    calc(var(--background-accent-g) * 1),
+    calc(var(--background-accent-b) * 1),
+    0.2);
+
   --mention-color: var(--background-accent);
   --unread-color: var(--background-accent);
   --chat-buttons: var(--background-accent);
@@ -132,7 +144,7 @@
 #vc-spotify-song-title#vc-spotify-song-title,
 .vc-spotify-ellipoverflow.vc-spotify-ellipoverflow,
 .vc-spotify-artist.vc-spotify-artist,
-.vc-spotify-album.vc-spotify-album,
+.vc-spotify-album.vc-spotify-album
 {
   color: var(--spotify-vencord-text);
 }
@@ -256,4 +268,29 @@
 /* @ en los nuevos nombres */
 :is([class*=userTagWithNickname], [class*=nameTagSmall]) span:only-child:before {
     content: '@';
+}
+
+/* COMPARTIR PANTALLA */
+/* Fondo posterior */
+.modalSize-3WSXDU{
+    background-color: var(--background-primary);
+}
+
+/*Settings no seleccionados*/
+.selectorButton-3fWZ0_{
+  background-color: var(--background-secondary);
+}
+
+/*Setting seleccionado*/
+.selectorButtonSelected-3cQUnj {
+ background-color: var(--background-accent);
+}
+
+/* Botón de compartir (Go Live) */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled, .lookFilled-1H2Jvj.colorBrand-2M3O3N[aria-disabled=true] {
+    background-color: var(--background-accent);
+}
+button[type="submit"].lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    background-color: var(--background-accent);
+    color: var(--white-500);
 }

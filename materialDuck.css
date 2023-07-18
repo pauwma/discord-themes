@@ -1,0 +1,27 @@
+@import url('https://github.com/pauwma/discord-themes/raw/master/main.css');
+
+:root {
+  --background-accent-r: 229;
+  --background-accent-g: 177;
+  --background-accent-b: 56;
+  --background-accent: rgb(var(--background-accent-r), var(--background-accent-g), var(--background-accent-b));
+}
+
+/*Home Button*/
+.homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+background: url('https://i.pinimg.com/originals/55/48/d6/5548d64d0e0a7446e4b0346ad31a367d.jpg') center/cover no-repeat;
+min-width: 60px;
+min-height: 50px;
+}
+
+/* Gatu */
+[class^="panels-3wFtMD"]::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    left: 183px;
+    margin-top: -48px;
+    position: absolute;
+    background-image: url('https://media.discordapp.net/attachments/792504730982940695/1130652432981032990/QjPvqkW.gif');
+}

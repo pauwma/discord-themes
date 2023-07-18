@@ -301,3 +301,22 @@ button[type="submit"].lookFilled-1H2Jvj.colorBrand-2M3O3N {
     color: var(--white-500);
 }
 
+/*Remove Invite Button next to channel name*/
+.actionIcon-2sw4Sl {
+    display: none;
+}
+
+/* voice user animation */
+.voiceUser-3nRK-K {
+	animation: voiceUser 0.5s ease-in-out;
+}
+@keyframes voiceUser {
+	from {
+		transform: translateX(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}

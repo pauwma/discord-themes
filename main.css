@@ -89,61 +89,6 @@
   font-weight: bold;
 }
 
-/* Miembros */
-/* unfocused-within membersWrap width */
-[class*="membersWrap-"] {
-    min-width: var(--member-list-width);
-    transition: ease-in-out var(--member-list-transition);
-}
-
-[class*="membersWrap-"] [class*="members-"] {
-    width: var(--member-list-width);
-}
-
-/* focused-within membersWrap width */
-[class*="membersWrap-"]:focus-within [class*="members-"] {
-    width: var(--member-list-focused-width);
-    transition: ease-in var(--member-list-focused-transition);
-}
-
-/* pointer eventers */
-[class*="membersWrap-"]:not(:focus-within) [class*="members-"] {
-    cursor: pointer;
-}
-
-[class*="membersWrap-"]:not(:focus-within) [class*="members-"]>* {
-    pointer-events: none;
-}
-
-/* hide user role category when not focus-within */
-[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"] {
-    opacity: 0%;
-    height: 0px;
-    transition: ease-out var(--member-list-transition);
-}
-
-[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"]:first-of-type {
-    padding: 10px 8px 0px 16px;
-    content: "searchhhhh"
-}
-
-[class*="membersWrap-"]:not(:focus-within) [class*="membersGroup-"]:not(:first-of-type) {
-    padding: 0px 8px 0px 16px;
-}
-
-/* membersWrap height for not focus-within */
-[class*="membersWrap-"]:not(:focus-within) [class*="content-"][aria-label="Members"] {
-    height: 100vh !important;
-}
-
-/* hide notes in private threads */
-[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="private-"]~div:last-child,
-[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="divider-"],
-[class*="membersWrap-"]:not(:focus-within) [class*="content-"] [aria-label="Members"]>[class*="private-"] {
-    opacity: 0%;
-    transition: ease-out calc(var(--member-list-transition) - 0.5s);
-}
-
 /* Quita iconos feos de servidor */
 [class*="rowGuildName-"] [class^="flowerStarContainer-"] {
   display: none;
@@ -287,4 +232,28 @@
 }
 #vc-spotify-song-title + div + div::before {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-disc-2'%3E%3Ccircle cx='12' cy='12' r='4'%3E%3C/circle%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='12' x2='12' y2='12.01'%3E%3C/line%3E%3C/svg%3E");
+}
+
+
+/* Sin leer bola */
+[class*="unreadRelevant"] {
+    padding-top: 1px;
+    margin-top: -4%;
+    margin-left: -2%;
+    border-radius: 1rem;
+    opacity: 75%;
+}
+
+/* Picture in picture cambiar tamaño
+ * To resize with mouse, first drag miniplayer to top left */
+[class*=pictureInPictureVideo-] {
+  /* default values */
+  width:  320px;
+  height: 180px;
+  resize: both;
+}
+
+/* @ en los nuevos nombres */
+:is([class*=userTagWithNickname], [class*=nameTagSmall]) span:only-child:before {
+    content: '@';
 }

@@ -25,3 +25,8 @@ min-height: 60px;
     position: absolute;
     background-image: url('https://media.discordapp.net/attachments/521060135901069329/1130607183466352651/2QHIXWU.gif');
 }
+
+.sprite-2lxwfc { 
+    filter: grayscale(0.0%)!important;
+    background-image: url(https://media.discordapp.net/attachments/792504730982940695/1130843255710425148/HNyZLjK.png);
+}

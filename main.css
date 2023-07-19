@@ -431,3 +431,9 @@ button[aria-label="Enviar un regalo"] { display: none; }
 button[aria-label="Abrir selector de GIFs"] { display: none; }
 div[aria-label="Hilos"] { display: none; }
 div[aria-label="Ajustes de notificaciones"] { display: none; }
+
+/* Barras */
+div[class*="bar-2H7Q9u"] [class*="barFill-3RgCsY"] {
+    background: var(--background-accent) !important;
+    background-color: aliceblue;
+}

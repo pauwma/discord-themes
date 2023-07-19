@@ -418,4 +418,16 @@ path[d^="M12.1151 2.00065C12.0768 2.00022 12.0384 2 12 2C6.477 2 2 6.477 2 12C2 
     border: none;
 }
 
+/* Eliminar botón de supresión de ruido*/
+button[aria-label="Supresión de ruido de Krisp"] { display: none; }
+/* Eliminar botón de añadir amigos superior derecha*/
+div[aria-label="Añadir amigos a MD"] { display: none; }
+/* Eliminar botón de bandeja de entrada superior derecha*/
+div[aria-label="Bandeja de entrada"] { display: none; }
 
+/* Eliminar botónes de gifs, stickers, regalos, hilos, ajustes de notificaciones de la barra de mensajes */
+button[aria-label="Abrir selector de stickers"] { display: none; }
+button[aria-label="Enviar un regalo"] { display: none; }
+button[aria-label="Abrir selector de GIFs"] { display: none; }
+div[aria-label="Hilos"] { display: none; }
+div[aria-label="Ajustes de notificaciones"] { display: none; }

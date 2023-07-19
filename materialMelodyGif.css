@@ -25,3 +25,9 @@ min-height: 60px;
     position: absolute;
     background-image: url('https://cdn.discordapp.com/emojis/1091853954045972530.gif?size=48&name=oneko_zzz&quality=lossless');
 }
+
+/* Emojis */
+.sprite-2lxwfc { 
+    filter: grayscale(0.0%)!important;
+    background-image: url(https://media.discordapp.net/attachments/792504730982940695/1131178168804450427/MDup8gp.png);
+}

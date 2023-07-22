@@ -10,6 +10,12 @@
 @import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
 @import url('https://github.com/lazuee/css-snippets/blob/main/discord/member-list/import.css');
 
+/* Better forums */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
+
+/* Better settings */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
 :root {
   --mention-color-bar: var(--background-accent);
   /* Cálculo de opacidad para --mention-color-background */
@@ -468,4 +474,10 @@ div[class*="bar-2H7Q9u"] [class*="barFill-3RgCsY"] {
   border: 2px solid transparent;
   -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
+}
+
+/* Better settings */
+body #app-mount .sidebar-nqHbhN:has(.socialLinks-3ywLUf), body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN:has(.socialLinks-3ywLUf) {
+    width: calc(250px + (var(--use-settingsicons) * (var(--settingsicons-size) + var(--settingsicons-gap)))) !important;
+    padding-left: 30px;
 }

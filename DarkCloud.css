@@ -189,6 +189,16 @@ line[stroke="var(--status-danger)"] {
 	filter: saturate(0.2) hue-rotate(-20deg) brightness(0.15);
 }
 
+/* Ocultar color */
+.panels-3wFtMD {
+    background-color: rgba(1, 1, 1, 0);
+}
+
+/* Divisor de secciones de servidores */
+.sectionDivider-189lqb {
+    background-color: var(--bg-4);
+}
+
 /* Avatar */
 /* Posicionamiento y tamaño */
 :root .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {

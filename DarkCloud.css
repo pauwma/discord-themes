@@ -189,6 +189,13 @@ line[stroke="var(--status-danger)"] {
 	filter: saturate(0.2) hue-rotate(-20deg) brightness(0.15);
 }
 
+/* Material status members */
+rect[mask='url(#svg-mask-status-idle)'],
+rect[mask='url(#svg-mask-status-dnd)'],
+rect[mask='url(#svg-mask-status-offline)']{
+    mask: url(#svg-mask-status-online);
+}
+
 /* Ocultar color */
 .panels-3wFtMD {
     background-color: rgba(1, 1, 1, 0);

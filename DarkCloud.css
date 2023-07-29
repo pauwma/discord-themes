@@ -541,6 +541,93 @@ body #app-mount .sidebar-nqHbhN:has(.socialLinks-3ywLUf), body #app-mount .layer
 	}
 }
 
+/* Bot Tag */
+.botTag-2mryIa {
+    background-color: var(--hover);
+}
+
+/* Better folders icon */
+path[d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"] {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    d: path("m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2");
+}
+
+/* Spotify Covers Go Wheeeee by frog machine/Overimagine#0001 */
+/* profile */
+#vc-spotify-player #vc-spotify-album-image {
+  border-radius: 50%;
+  border: 2px solid var(--accent-1); /* Add any color you like */
+}
+/* epic :has() function by AkiraSimplex */
+body:has(.vc-spotify-pause) #vc-spotify-player #vc-spotify-album-image {
+  animation: spin 20s linear infinite;
+  border: 2px solid var(--accent-1); /* Add any color you like */
+}
+/* the animation  */
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* In case you want to change the shape of channel indicators */
+.iconContainer-21RCa3 {
+    width: 6px;
+  height: 6px;
+  margin-right: 10px !important;
+  margin-left: 8px !important;
+  margin: 0px;
+    border-radius: 100%;
+}
+
+/* Color for unread channels */
+.unread-36eUEm {
+    background-color: #f3d56a; /* Change color here */
+    width: 6px;
+    height: 6px;
+    top: 12px;
+    margin-left: 10px !important;
+    margin: 0px;
+    border-radius: 100%;
+}
+
+/* hide spotify progress bar grabber */
+#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
+  background-color: #00000000 !important;
+  border-color: #00000000 !important;
+  box-shadow: none !important;
+}
+#vc-spotify-progress-bar>[class^=slider] [class^=grabber]:hover {
+  background-color: #bbb !important;
+  border-color: #bbb !important;
+  box-shadow: 0 3px 1px 0 hsl(var(--black-500-hsl)/.05),0 2px 2px 0 hsl(var(--black-500-hsl)/.1),0 3px 3px 0 hsl(var(--black-500-hsl)/.05) !important;
+}
+
+/* Change Vencord's Spotify Controller's Shuffle/Repeat Button Color */
+.vc-spotify-button {
+    --vc-spotify-green: var(--accent-1); /* Change the value here */    
+}
+
+/* Hide Super Reaction Button */
+[id="message-add-reaction-1"] {
+  display: none;
+}
+
+/* Pistola emoji */
+.emoji[alt="🔫"] {
+  content: url("https://cdn.discordapp.com/emojis/808512495794520114.webp?size=1024&quality=lossless")
+}
+
+/* Login background artwork */
+svg.artwork-L5TAwQ {
+    display: none !important;
+    visibility: hidden !important;
+}
 
 /* Blur en info personal */
 [class^="field"]:nth-child(n+3) > [class^="constrainedRow"] > div > div {
